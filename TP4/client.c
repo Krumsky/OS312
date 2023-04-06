@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
 	if(msg_id == -1)
 		perror("MSGET (creation) "), exit(1);
 	printf("CLIENT %d: preparation du message contenant l'operation suivante:\
-			%d %c %d\n", getpid(), atoi(argv[1]), argv[2][0], atoi(argv[3]));
+%d %c %d\n", getpid(), atoi(argv[1]), argv[2][0], atoi(argv[3]));
 
 	/* On prepare un message de type 1 à envoyer au serveur avec les
 	 * informations necessaires */
